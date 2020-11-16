@@ -139,6 +139,29 @@
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
 }
 
+.home-screen-details .social-links {
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    padding: 0 140px;
+    margin-top: 25px;
+}
+
+.home-screen-details .social-links a {
+    height: 40px;
+    width: 40px;
+    color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+}
+
+.home-screen-details .social-links a:hover {
+    color: rgba(255, 255, 255, 0.8);
+    transform: scale(1.1);
+}
+
 .my-name {
     /* background-color: red; */
     text-align: center;
