@@ -7,6 +7,162 @@
     outline: none;
 }
 
-h1 {
-    color: red;
+.hidden {
+    display: none;
+}
+
+.container {
+    /* background-color: red; */
+    position: relative;
+}
+
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+
+/* navigation style */
+
+.left-pane-navigation {
+    /* background-color: yellow; */
+    flex: 0 0 15%;
+    max-width: 15%;
+    height: 100vh;
+    justify-content: space-around;
+    border-right: 1px solid rgba(1, 1, 1, 0.1);
+}
+
+.left-pane-navigation .fa {
+    margin-right: 10px;
+}
+
+.left-pane-navigation .logo {
+    /* background-color: red; */
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    width: 88px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 100px;
+    position: relative;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.left-pane-navigation .logo::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    border-left: 3px solid red;
+    border-top: 3px solid rgba(255, 0, 0, 0.7);
+}
+
+.left-pane-navigation .logo::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 15px;
+    height: 15px;
+    border-right: 3px solid red;
+    border-bottom: 3px solid rgba(255, 0, 0, 0.7);
+}
+
+.left-pane-navigation .nav-container {
+    margin-top: 70px;
+}
+
+.left-pane-navigation .copyright-text {
+    margin-top: 100px;
+    /* background-color: red; */
+}
+
+.left-pane-navigation ul li {
+    flex: 0 0 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    border-bottom: 1px solid rgba(1, 1, 1, 0.1);
+    padding-left: 40px;
+}
+
+.left-pane-navigation ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.left-pane-navigation ul li a:hover {
+    color: rgba(255, 0, 0, 0.7);
+    position: relative;
+    margin-left: 5px;
+}
+
+.left-pane-navigation ul li a.active {
+    color: rgba(255, 0, 0, 0.7);
+}
+
+
+/* right pane content styles */
+
+.right-pane-content {
+    /* background-color: aqua; */
+    flex: 0 0 85%;
+}
+
+.right-pane-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex: 0 0 100%;
+}
+
+.home-screen-details img {
+    background-color: red;
+    width: 350px;
+    border-radius: 50%;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    padding: 4px;
+    display: block;
+}
+
+.home-screen-details img:hover {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.my-name {
+    /* background-color: red; */
+    text-align: center;
+    margin-top: 40px;
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.6);
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.my-name:hover {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.position {
+    text-align: center;
+    margin-top: 8px;
+    font-size: 15px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.4);
+    text-transform: capitalize;
+}
+
+.position:hover {
+    color: rgba(0, 0, 0, 0.6);
 }
