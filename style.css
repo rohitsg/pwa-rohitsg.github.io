@@ -358,6 +358,16 @@
     margin-top: 2px;
 }
 
+
+/* 
+.about-screen-details .education {
+    height: 100%;
+}
+
+.about-screen-details .experience {
+    height: 100%;
+} */
+
 .about-screen-details .education-institute-details {
     padding-bottom: 50px;
     position: relative;
