@@ -353,20 +353,10 @@
     top: 100%;
     left: 0;
     height: 2px;
-    width: 10%;
+    width: 75px;
     background-color: rgba(0, 0, 0, 0.2);
     margin-top: 2px;
 }
-
-
-/* 
-.about-screen-details .education {
-    height: 100%;
-}
-
-.about-screen-details .experience {
-    height: 100%;
-} */
 
 .about-screen-details .education-institute-details {
     padding-bottom: 50px;
@@ -422,16 +412,33 @@
     font-weight: 600;
 }
 
-.education-institute-course-details {
+.about-screen-details .education-institute-details .education-institute-course-details {
     margin-top: 10px;
     color: rgba(0, 0, 0, 0.6);
 }
 
-.skills-tag {
+.about-screen-details .education-institute-details .education-institute-position {
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.about-screen-details .education-institute-details .education-institute-position span {
+    border: 1px solid rgba(255, 0, 0, 0.5);
+    flex: 0 0 auto;
+    border-radius: 10px;
+    padding: 1px 14px;
+    margin: 0 2px;
+    box-shadow: 0px 2px 3px 0px rgba(255, 0, 0, 0.1);
+    margin-top: 5px;
+    position: relative;
+    margin-right: 20px;
+}
+
+.about-screen-details .education-institute-details .skills-tag {
     margin-top: 10px;
 }
 
-.skills-tag span {
+.about-screen-details .education-institute-details .skills-tag span {
     border: 1px solid rgba(0, 0, 0, 0.09);
     flex: 0 0 auto;
     border-radius: 10px;
