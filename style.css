@@ -1,3 +1,7 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 *,
 *::after,
 *::before {
@@ -12,7 +16,6 @@
 }
 
 .container {
-    /* background-color: red; */
     position: relative;
 }
 
@@ -44,7 +47,6 @@
 }
 
 .left-pane-navigation .logo {
-    /* background-color: red; */
     display: inline-block;
     height: 35px;
     line-height: 35px;
@@ -86,7 +88,6 @@
 
 .left-pane-navigation .copyright-text {
     margin-top: 100px;
-    /* background-color: red; */
 }
 
 .left-pane-navigation ul li {
@@ -117,7 +118,6 @@
 /* right pane content styles */
 
 .right-pane-content {
-    /* background-color: aqua; */
     flex: 0 0 85%;
     margin-left: 15%;
 }
@@ -168,7 +168,6 @@
 }
 
 .home-screen-details .my-name {
-    /* background-color: red; */
     text-align: center;
     margin-top: 40px;
     font-size: 25px;
@@ -207,7 +206,6 @@
 }
 
 .about-screen-details .header {
-    /* background-color: red; */
     font-size: 40px;
     text-transform: capitalize;
     font-weight: 600;
@@ -280,7 +278,6 @@
     flex: 0 0 50%;
     padding: 10px;
     padding-left: 0px;
-    /* border-bottom: 1px solid rgba(0, 0, 0, 0.2); */
     position: relative;
 }
 
@@ -301,7 +298,6 @@
 
 .about-screen-details .skills .skill-item {
     width: 100%;
-    /* background-color: red; */
     margin-bottom: 20px;
 }
 
@@ -405,7 +401,7 @@
 
 .about-screen-details .education-institute-details .education-institute-joining-date {
     margin-right: 5px;
-    color: rgba(0, 0, 0, 0.4);
+    color: rgba(0, 0, 0, 0.6);
     font-size: 14px;
 }
 
